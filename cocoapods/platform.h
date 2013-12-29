@@ -68,7 +68,10 @@
 #define HAVE_LIBPTHREAD 1
 
 /* Define to 1 if you have the `sodium' library (-lsodium). */
-/* #undef HAVE_LIBSODIUM */
+/*#define HAVE_LIBSODIUM 1 */
+
+/* Define to 1 if you have the `uuid' library (-luuid). */
+/* #undef HAVE_LIBUUID */
 
 /* Define to 1 if you have the `zmq' library (-lzmq). */
 #define HAVE_LIBZMQ 1
@@ -143,9 +146,6 @@
    */
 #define LT_OBJDIR ".libs/"
 
-/* Define to 1 if your C compiler doesn't accept -c and -o together. */
-/* #undef NO_MINUS_C_MINUS_O */
-
 /* Name of package */
 #define PACKAGE "czmq"
 
@@ -156,7 +156,7 @@
 #define PACKAGE_NAME "czmq"
 
 /* Define to the full name and version of this package. */
-#define PACKAGE_STRING "czmq 1.4.2"
+#define PACKAGE_STRING "czmq 2.0.3"
 
 /* Define to the one symbol short name of this package. */
 #define PACKAGE_TARNAME "czmq"
@@ -165,16 +165,16 @@
 #define PACKAGE_URL ""
 
 /* Define to the version of this package. */
-#define PACKAGE_VERSION "1.4.2"
+#define PACKAGE_VERSION "2.0.3"
 
 /* CZMQ major version */
-#define PACKAGE_VERSION_MAJOR 1
+#define PACKAGE_VERSION_MAJOR 2
 
 /* CZMQ minor version */
-#define PACKAGE_VERSION_MINOR 4
+#define PACKAGE_VERSION_MINOR 0
 
 /* CZMQ patchlevel */
-#define PACKAGE_VERSION_PATCH 2
+#define PACKAGE_VERSION_PATCH 3
 
 /* Define as the return type of signal handlers (`int' or `void'). */
 #define RETSIGTYPE void
@@ -186,7 +186,7 @@
 #define TIME_WITH_SYS_TIME 1
 
 /* Version number of package */
-#define VERSION "1.4.2"
+#define VERSION "2.0.3"
 
 /* Define for Solaris 2.5.1 so the uint32_t typedef from <sys/synch.h>,
    <pthread.h>, or <semaphore.h> is not used. If the typedef were allowed, the

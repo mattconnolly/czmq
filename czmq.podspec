@@ -6,7 +6,7 @@
 #
 Pod::Spec.new do |s|
   s.name         = "czmq"
-  s.version      = "1.4.2"
+  s.version      = "2.0.3"
   s.summary      = "High-level C binding for ØMQ."
   # s.description  = <<-DESC
   #                   An optional longer description of czmq
@@ -34,7 +34,7 @@ Pod::Spec.new do |s|
 
   # Specify the location from where the source should be retrieved.
   #
-  s.source       = { :git => "https://github.com/mattconnolly/czmq.git", :tag => "v1.4.2" }
+  s.source       = { :git => "https://github.com/mattconnolly/czmq.git", :tag => "v2.0.2" }
 
 
   # If this Pod runs only on iOS or OS X, then specify the platform and
@@ -101,5 +101,5 @@ Pod::Spec.new do |s|
 
   # Finally, specify any Pods that this Pod depends on.
   #
-  s.dependency 'ZeroMQ', '~> 3.2.3'
+  s.dependency 'ZeroMQ', '~> 4.0'
 end
